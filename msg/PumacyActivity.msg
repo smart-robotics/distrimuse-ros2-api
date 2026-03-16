@@ -1,11 +1,12 @@
-# Pumacy activity constants
-int8 STANDING=0
-int8 SITTING=1
-int8 LAYING_DOWN=2
-int8 WALKING=3
-int8 RUNNING=4
-int8 FALLING=5
+# Information about the activity of a person, provided by Pumacy
+string STANDING_STILL = STANDING_STILL
+string SITTING = SITTING
+string LAYING_DOWN = LAYING_DOWN
+string WALKING = WALKING
+string RUNNING = RUNNING
+string BENDING_OVER = BENDING_OVER
+string FALLING = FALLING
 
-int8 type
-float64 confidence
-bool anomalous
+string type             # Activity type (e.g. STANDING, RUNNING, ...)
+float32 confidence      # Confidence score of activity type (0.0 to 1.0) (-1.0 if not used)
+bool anomalous          # Whether the activity is considered an anomaly (true) or normal behavior (false) 

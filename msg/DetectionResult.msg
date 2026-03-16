@@ -1,4 +1,0 @@
-std_msgs/Header header
-distrimuse_ros2_api/DetectedPerson[] detected_persons
-distrimuse_ros2_api/RobotBehavior robot_behavior
-string scene
