@@ -18,6 +18,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PumacyActivity.msg"
   "msg/RulexAreaScore.msg"
   "msg/RulexDetectionResult.msg"
+  "msg/SrPalletState.msg"
+  "msg/SrRobotSystemState.msg"
   "msg/UnigraResult.msg"
   DEPENDENCIES geometry_msgs sensor_msgs std_msgs vision_msgs
 )

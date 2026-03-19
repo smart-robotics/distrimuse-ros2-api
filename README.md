@@ -6,6 +6,7 @@ A ROS2 message definitions package for the DistriMuSe project. This package prov
 
 This package defines message interfaces for each partner in the DistriMuSe project:
 
+- **Smart Robotics** — Robot system state including joint states, pallet info, and lift position
 - **Aitek** — Person detection with bounding boxes and behavior classification
 - **Emoj** — Person detection with skeleton joint positions and ergonomic risk assessment
 - **Pumacy** — Activity recognition with anomaly detection
@@ -13,6 +14,12 @@ This package defines message interfaces for each partner in the DistriMuSe proje
 - **UniGra** — Digital twin collision risk assessment
 
 ## Messages
+
+### Smart Robotics
+| Message | Description |
+|---------|-------------|
+| `SrRobotSystemState` | Robot system state with joint states, pallet info, and lift position |
+| `SrPalletState` | Pallet state with side, completed layers, and boxes on current layer |
 
 ### Aitek
 | Message | Description |
