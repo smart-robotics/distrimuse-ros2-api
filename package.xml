@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>distrimuse_ros2_api</name>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <description>DistriMuSe ROS2 message definitions</description>
   <maintainer email="dmartins@smart-robotics.nl">dmartins</maintainer>
   <license>TODO</license>
